@@ -1,0 +1,415 @@
+*{
+  margin:0;			
+			padding:0; 
+			box-sizing:border-box; 
+			height:100%
+			font-family:arial;			
+			
+}
+#col-1 {
+  position: fixed;
+  width: 35%;
+  left: 0;
+  height: 100%;		
+  background-color: SkyBlue;			
+  z-index: 1010101010;			
+}
+
+#col-2 {
+  position: absolute;
+  width: 15%;
+  left: 35%;
+  height: 100%;	
+  background-color: Snow ;
+  z-index: 1010101010;			
+}
+#col-3 {
+  position: absolute;
+  width: 50%;
+  left: 50%;
+  height: 100%;	
+  background-color: Snow ;
+  z-index: 1010101010;			
+}
+.mypic{
+			height:100%;
+			width: 100%;
+			opacity:0.4;			
+}
+.centertxt{
+			text-align:center;
+			color:white;
+			font-size:32px;					
+			position:absolute;
+			left:45%;	
+			top:60%;
+			transform:translate(-50%,-50%);
+			-ms-transform:translate(-50%,-50%);					
+}
+
+.centerpara{
+			text-align:center;
+			color:white;
+			font-size:24px;					
+			position:absolute;
+			left:45%;	
+			top:70%;
+			transform:translate(-50%,-50%);
+			-ms-transform:translate(-50%,-50%);					
+}
+.centericon{
+			text-align:center;
+			color:white;
+			font-size:28px;					
+			position:absolute;
+			left:45%;	
+			top:78%;
+			transform:translate(-50%,-50%);
+			-ms-transform:translate(-50%,-50%);					
+}
+
+a{
+			color:white;
+}
+
+h3{ 
+			color:Turquoise;
+			font-size:22px;		
+}
+
+.pg{
+			position:absolute;
+			top:5%;			
+			letter-spacing:2px;
+			font-size:20px;
+}
+
+.margin10{
+			position:absolute;
+			top:5%;
+			left:7%;	
+}
+
+.margin30{
+			position:absolute;
+			top:50%;
+			left:7%;	
+}
+.pg2{
+			position:absolute;
+			top:50%;			
+			letter-spacing:2px;
+			font-size:20px;
+}
+.margin50{
+			position:absolute;
+			top:93%;
+			left:7%;	
+}
+.pg3{
+			position:absolute;
+			top:93%;			
+			letter-spacing:2px;
+			font-size:20px;
+}
+.margin70{
+			position:absolute;
+			top:115%;
+			left:7%;	
+}
+.pg4{
+			position:absolute;
+			top:115%;			
+			letter-spacing:2px;
+			font-size:20px;
+}
+.margin90{
+			position:absolute;
+			top:140%;
+			left:7%;	
+}
+.pg5{
+			position:absolute;
+			top:140%;			
+			letter-spacing:2px;
+			font-size:20px;
+}
+.margin0{
+			position:absolute;
+			top:225%;
+			left:7%;	
+}
+.margin100{
+			position:absolute;
+			top:214%;
+			left:7%;	
+}
+
+.design{
+			width:85%;			
+			height:45px;
+			font-size:24px;
+			padding:2px;
+			letter-spacing:4px;
+			background-color:#ccc;
+			color: black;
+			position:absolute;
+			top:225%;			
+}
+.pg6{
+			position:absolute;
+			top:235%;			
+			letter-spacing:2px;
+			font-size:20px;
+}
+
+
+
+/*media query for page setup*/
+@media screen and (max-width:480px)
+{
+*{
+			font-size:13px;
+			
+}
+#col-1{
+		position: absolute;
+  width: 100%;  
+  height: 35%;		  
+}
+
+#col-2 {  
+  width: 25%;
+  left: 0%;
+		top:35%;
+  height: 65%;	
+  
+}
+#col-3 {  
+  width: 75%;
+  left: 25%;
+			top:35%;
+  height:65%;	  
+}
+.centertxt{
+			font-size:18px;
+			top:55%;	
+			left:50%;
+}
+.centerpara{		
+			font-size:11px;	
+  	top:72%;
+			left:50%;
+}
+.centericon{
+			font-size:13px;				
+			left:50%;
+			top:75%;
+}
+/*
+fa-linkedin{
+			top:25%;
+			right:0;
+}
+h3{ 
+			font-size:15px;		
+}
+p{
+			font-size:11px;		
+}
+*/
+
+h3{
+			font-size:15px;		
+}
+.mypic{			
+			width: 50%;
+			position:absolute;
+			left:25%;			
+}
+.margin30{			
+			top:100%;			
+}
+.pg {
+						font-size:13px;
+}
+.pg2{			
+			top:100%;	
+			font-size:13px;
+}
+.margin50{			
+			top:155%;			
+}
+.pg3{			
+			top:155%;					
+}
+.margin70{
+			top:185%;
+}
+.pg4{			
+			top:185%;						
+}
+.margin90{
+			top:218%;
+}
+.pg5{		
+			top:218%;
+			font-size:13px;
+}
+.margin0{
+			top:345%;
+}
+.margin100{
+			top:333%;
+}
+
+.design{			
+			top:380%;			
+}
+.pg6{
+			top:375%;						
+}
+
+
+}
+@media screen and (max-width:767px) and (min-width:480px)
+{
+#col-1{
+		position: absolute;
+  width: 100%;  
+  height: 35%;		  
+}
+
+#col-2 {  
+  width: 15%;
+  left: 0%;
+		top:30%;
+  height: 65%;	
+  
+}
+#col-3 {  
+  width: 85%;
+  left: 15%;
+			top:30%;
+  height:65%;	  
+}
+/*
+#col-1 {
+			height: 45%;		
+}
+.centertxt{
+			font-size:25px;		
+			top:56%;
+}
+*/
+.centerpara{			
+			font-size:17px;					
+			top:80%;
+}
+.centericon{
+			font-size:18px;	
+			top:78%;
+}
+.margin30{
+			top:35%;
+			left:0%;	
+}
+
+
+
+}
+@media screen and (max-width:1024px) and (min-width:768px)
+{
+#col-1{
+		position: absolute;
+  width: 100%;  
+  height: 50%;		  
+}
+
+#col-2 {  
+  width: 20%;
+  left: 0%;
+		top:50%;
+  height: 50%;	
+  
+}
+#col-3 {  
+  width: 80%;
+  left: 20%;
+			top:50%;
+  height:50%;	  
+}
+.mypic{			
+			width: 80%;
+			position:absolute;
+			left:10%;			
+}
+
+/*
+#col-1 {
+  width: 35%;
+			height: 45%;		
+}
+*/
+.centertxt{
+			font-size:27px;				
+			left:47%;
+}
+
+.centerpara{			
+			font-size:17px;	
+			top:73%;
+			left:47%;
+}
+.centericon{
+			font-size:17px;
+			top:80%;
+			left:47%;
+}
+
+.margin30{			
+			top:80%;			
+}
+.pg2{			
+			top:80%;						
+}
+.margin50{			
+			top:145%;			
+}
+.pg3{			
+			top:145%;					
+}
+.margin70{
+			top:180%;
+}
+.pg4{			
+			top:180%;						
+}
+.margin90{
+			top:213%;
+}
+.pg5{		
+			top:213%;			
+}
+.margin0{
+			top:345%;
+}
+.margin100{
+			top:333%;
+}
+
+.design{			
+			top:345%;			
+}
+.pg6{
+			top:355%;						
+}
+
+}
+
+@media screen and (min-width:1025px) 
+{
+
+
+
+}
