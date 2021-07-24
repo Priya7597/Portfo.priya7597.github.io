@@ -262,6 +262,10 @@ h3{
 }
 @media screen and (max-width:767px) and (min-width:480px)
 {
+*{
+			font-size:13px;
+			
+}
 #col-1{
 		position: absolute;
   width: 100%;  
@@ -269,39 +273,86 @@ h3{
 }
 
 #col-2 {  
-  width: 15%;
+  width: 25%;
   left: 0%;
-		top:30%;
+		top:35%;
   height: 65%;	
   
 }
 #col-3 {  
-  width: 85%;
-  left: 15%;
-			top:30%;
+  width: 75%;
+  left: 25%;
+			top:35%;
   height:65%;	  
 }
-/*
-#col-1 {
-			height: 45%;		
-}
 .centertxt{
-			font-size:25px;		
-			top:56%;
+			font-size:18px;
+			top:55%;	
+			left:50%;
 }
-*/
-.centerpara{			
-			font-size:17px;					
-			top:80%;
+.centerpara{		
+			font-size:11px;	
+  	top:70%;
+			left:50%;
 }
 .centericon{
-			font-size:18px;	
-			top:78%;
+			font-size:13px;				
+			left:50%;
+			top:75%;
 }
-.margin30{
-			top:35%;
-			left:0%;	
+
+
+h3{
+			font-size:15px;		
 }
+.mypic{			
+			width: 50%;
+			position:absolute;
+			left:25%;			
+}
+.margin30{			
+			top:100%;			
+}
+.pg {
+						font-size:13px;
+}
+.pg2{			
+			top:100%;	
+			font-size:13px;
+}
+.margin50{			
+			top:185%;			
+}
+.pg3{			
+			top:185%;					
+}
+.margin70{
+			top:215%;
+}
+.pg4{			
+			top:215%;						
+}
+.margin90{
+			top:248%;
+}
+.pg5{		
+			top:248%;
+			font-size:13px;
+}
+.margin0{
+			top:390%;
+}
+.margin100{
+			top:375%;
+}
+
+.design{			
+			top:390%;			
+}
+.pg6{
+			top:375%;						
+}
+
 
 
 
